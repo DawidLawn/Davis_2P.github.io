@@ -335,6 +335,9 @@ nav li:hover{
         flex-direction:column;
         margin-top:10px;
     }
+    .message{
+        overflow:scroll;
+    }
 }
 
 /* animations */
