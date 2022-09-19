@@ -226,6 +226,11 @@ div.backend:hover{
 }
 /*menu*/
 
+a{
+    text-decoration:none;
+    color:black;
+}
+
 #navigation{
     position:fixed;
     bottom:0;
@@ -346,4 +351,5 @@ nav li:hover{
     0%{transform:translateX(100vw);}
     100%{transform:translateX(0px);}
 }
+
 
