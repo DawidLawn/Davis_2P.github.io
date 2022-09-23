@@ -214,7 +214,7 @@ div.backend:hover{
     margin-top:10%;
     margin-left:25%;
     border-radius:20px;
-    transition:all 0.4s ease-in-out;
+    transition:all 0.27s ease-in-out;
 }
 
 #menuBar:hover #bar2{
@@ -241,12 +241,8 @@ a{
     width:100%;
     height:70px;
     border-top:2px solid #666;
-    background: #606c88;
+    background-size:cover;
     transition:all 0.5s linear;
-background: -webkit-linear-gradient(0deg, #606c88 0%, #3f4c6b 100%);
-background: linear-gradient(0deg, #606c88 0%, #3f4c6b 100%);
-display:none;
-
 }
 
 #nav1{
@@ -317,9 +313,11 @@ nav li:hover{
         position:fixed;
         top:0;
         left:0;
-        width:100%;
+        width:40%;
         height:100%;
         animation:none;
+        background-color:none;
+        border:none;
     }
 
     nav ul{
@@ -329,12 +327,14 @@ nav li:hover{
         align-items:center;
         justify-content:center;
         top:0;
-        left:-30vw;
+        left:40vw;
         width:100%;
+        
     }
 
     nav li{
-        width:100%;
+        width:50%;
+        border-radius:10%;
         text-align: center;
         position:relative;
         top:0;
@@ -342,6 +342,15 @@ nav li:hover{
         display:flex;
         flex-direction:column;
         margin-top:10px;
+        color:white;
+        box-shadow: 0px 0px 19px 200px rgba(0,0,0,0.7) inset;
+-webkit-box-shadow: 0px 0px 19px 200px rgba(0,0,0,0.7) inset;
+-moz-box-shadow: 0px 0px 19px 200px rgba(0,0,0,0.7) inset;
+transition:all 0.2s linear;
+    }
+
+    nav li:hover{
+        transform:rotate(10deg);
     }
     .message{
         overflow:scroll;
@@ -351,8 +360,8 @@ nav li:hover{
 /* animations */
 
 @keyframes menu {
-    0%{transform:translateX(100vw);}
-    100%{transform:translateX(0px);}
+    0%{transform:translateX(100vw); opacity:0;}
+    100%{transform:translateX(0px); opacity:1;}
 }
 
 
