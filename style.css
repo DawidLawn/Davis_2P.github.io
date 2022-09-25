@@ -90,7 +90,7 @@ label{
 
 label .fa-solid{
     margin-top:25%;
-    font-size:2.4rem;
+    font-size:3rem;
     transition:all 0.5s ease-in-out;
 }
 
@@ -109,6 +109,8 @@ label .fa-solid{
 
 #toggle:checked ~ label{
     transform:rotate(360deg);
+    background-color:#181818;
+    color:white;
 }
 
 /*scrollbar styling*/
@@ -358,6 +360,9 @@ transition:all 0.2s linear;
     }
     .message{
         overflow:scroll;
+    }
+    #toggle + label{
+       margin-left:40vw;
     }
 }
 
