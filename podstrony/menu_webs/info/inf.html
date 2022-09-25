@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Davis_L</title>
+    <link rel="stylesheet" href="inf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <div id="menuBar" onclick="menue()">
+        <div id="bar1"></div>
+        <div id="bar2"></div>
+        <div id="bar3"></div>
+    </div>
+    
+    
+    
+    <nav id="navigation" href="javascript:void(0);">
+    <ul>
+       <a href="https://zagrywacz.github.io/Davis_2P.github.io/"><li><i class="fa-solid fa-house"></i></li></a> 
+       <a href="#"><li><i class="fa-sharp fa-solid fa-circle-info"></i></li></a>
+        <a href="#"><li><i class="fa-solid fa-envelope"></i></li></a>
+        <a href="#"><li><i class="fa-solid fa-question"></i></li></a>
+    </ul>
+    
+    </nav>
+    <script>
+        function menue() {
+    var x = document.getElementById('navigation');
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+        x.style='animation:menu 0.5s ease-in-out';
+      x.style.display = "block";
+      
+    }
+  }
+    </script>
+</body>
+</html>
