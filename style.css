@@ -374,6 +374,12 @@ transition:all 0.2s linear;
     #toggle + label{
        margin-left:40vw;
     }
+    footer{
+        position:absolute;
+        top:205vh;
+        font-size:18px;
+        text-align:center;
+    }
 }
 
 /* animations */
