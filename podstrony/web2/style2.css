@@ -40,7 +40,6 @@ header h2{
 }
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
 header h3{
-    text-align:justify;
     margin-left:40px;
     margin-right:40px;
     margin-top:50px;
@@ -80,4 +79,10 @@ transform:rotate(30deg);
 a{
     color:white;
     text-decoration:none;
+}
+
+@media (min-width: 768px) {
+    header h3{
+        font-size:4rem;
+    }
 }
